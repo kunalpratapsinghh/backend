@@ -1,7 +1,6 @@
 const express = require("express");
 const UserSignUp = require("../Schema/UserSignUpSchema");
 const app = express();
-const axios = require("axios");
 const argon2 = require("argon2");
 const router = express.Router();
 app.use(express.json());
