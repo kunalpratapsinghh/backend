@@ -6,7 +6,9 @@ const argon2 = require("argon2");
 const router = express.Router();
 app.use(express.json());
 
-
+router.get("",async(req,res)=>{
+  res.send("hello")
+})
 
 router.post("/register", async (req, res) => {
     try {
